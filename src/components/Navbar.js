@@ -30,7 +30,7 @@ const Navbar = () => {
             return(
               
           <li key={id}>
-            <a href={href} target="_blank" rel="noopener" className="nav-icon"
+            <a href={href} target="_blank" rel="noopener noreferrer" className="nav-icon"
             ><i className={icon}></i
             ></a>
           </li>
